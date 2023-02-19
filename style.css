@@ -1,0 +1,83 @@
+* {
+    word-wrap: break-word;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+    background-color: rgb(254, 254, 252);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mealPlan {
+    border: 2px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td {
+    border: 2px solid rgb(32, 141, 68);
+    height: 50px;
+    width: 50px;
+}
+
+#choice {
+    border: 2px solid goldenrod;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: auto;
+}
+
+p {
+    text-indent: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+h2+h3 {
+    text-align: center;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: rgb(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+table {
+    margin-bottom: 80px;
+}
+
+blockquote {
+    margin-bottom: 70px;
+    border: 10px solid greenyellow;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    float: unset;
+    border: 0.4px solid black;
+    width: auto;
+    text-align: center;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.li::before {
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
